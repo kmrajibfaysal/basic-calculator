@@ -10,6 +10,11 @@ body {
   width: 400px;
 }
 
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+}
+
 /* custom scrollbar */
 body::-webkit-scrollbar {
   width: 1em;
