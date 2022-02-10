@@ -468,49 +468,49 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-12 {
-  margin: 3rem;
+.flex {
+  display: flex;
 }
 
-.m-2 {
-  margin: 0.5rem;
+.h-screen {
+  height: 100vh;
 }
 
-.m-24 {
-  margin: 6rem;
+.items-center {
+  align-items: center;
 }
 
-.m-20 {
-  margin: 5rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.w-32 {
-  width: 8rem;
+.justify-center {
+  justify-content: center;
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
-.border-2 {
-  border-width: 2px;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.bg-lime-500 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.font-bold {
+  font-weight: 700;
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+body {
+  background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+}
+
+.calculator{
+  min-width: 400px;
 }

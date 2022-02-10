@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+}
+
+.calculator{
+    min-width: 400px;
+}
