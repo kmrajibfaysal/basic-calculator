@@ -517,15 +517,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-right-radius: 0.75rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-lime-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(163 230 53 / var(--tw-border-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -579,6 +570,31 @@ body {
 .equal-sign {
   grid-column: -2;
   grid-row: 2 / span 4;
+}
+
+.button-style {
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(199, 199, 199);
+}
+
+.operator {
+  background: grey;
+  color: white;
+  font-size: 30px;
+}
+
+#clear-btn {
+  background: rgb(250, 19, 19);
+  color: white;
+}
+
+#equal-sign-btn {
+  background: rgb(13, 206, 87);
 }
 
 /* custom scrollbar */
